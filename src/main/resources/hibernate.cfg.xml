@@ -5,5 +5,6 @@
 <hibernate-configuration>
     <session-factory>       
         <mapping class="br.unisal.api.model.City" />
+        <mapping class="br.unisal.api.model.Frete" />
     </session-factory>
 </hibernate-configuration>

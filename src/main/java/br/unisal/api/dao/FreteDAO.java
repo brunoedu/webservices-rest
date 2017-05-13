@@ -21,7 +21,7 @@ public class FreteDAO extends HibernateDAO<Frete> {
 
 	public List<Frete> getFrete() {
 		List<Frete> fretes = null;
-		Query q = getSession().createQuery("from Frete order by id asc");
+		Query q = getSession().createQuery("from Frete order by id desc");
 		try {
 			fretes = q.list();
 		} catch (NoResultException e) {

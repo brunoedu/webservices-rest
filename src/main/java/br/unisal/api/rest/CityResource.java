@@ -52,7 +52,7 @@ public class CityResource {
 			return Response.ok(MessageCodeHTTP.CONSTRAINT_VIOLATION_RSP).build();
 		}
 
-		return Response.ok(c).build();
+		return Response.ok(MessageCodeHTTP.CRIADO_RSP).build();
 	}	
 	
 
